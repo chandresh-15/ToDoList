@@ -1,6 +1,7 @@
 var taskele = document.querySelector("#task-input-text");
 var taskdata = document.querySelector(".task-box");
 var count = 0;
+let sign = true;
 function addtask() {
   if (taskele.value == "") {
     alert("pleasr enter your task");
